@@ -11,3 +11,4 @@ metalml.f90
 colorteff.f90
 bytype.f90
 Makefile.prv
+SPECTRA/C3K_R10K
