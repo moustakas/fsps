@@ -261,9 +261,9 @@ MODULE SPS_VARS
   INTEGER, PARAMETER :: nspec=5994
 #elif (C3K)
   REAL(SP), PARAMETER :: zsol_spec = 0.0134
-  CHARACTER(16), PARAMETER :: spec_type = 'c3k_r10k_afe+0.0'
+  CHARACTER(15), PARAMETER :: spec_type = 'c3k_r3k_afe+0.0'
   INTEGER, PARAMETER :: nzinit=11
-  INTEGER, PARAMETER :: nspec=25981
+  INTEGER, PARAMETER :: nspec=11566
 #elif (BASEL)
   REAL(SP), PARAMETER :: zsol_spec = 0.020
   CHARACTER(5), PARAMETER :: spec_type = 'basel'
